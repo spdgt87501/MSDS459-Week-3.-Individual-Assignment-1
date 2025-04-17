@@ -8,9 +8,9 @@ According to Gupta (2024), the concept of a knowledge graph can be understood in
 
 The article Euler and Hamiltonian Paths by GeeksforGeeks (2025) summarizes the concept of Euler Paths and Circuits in the following way.  Each defines a way through a knowledge graph where each connection or edge is utilized only once.  The Euler path will end at a place other than its start whereas a Euler Circutuit stops at the same node it started at.  A Euler path can be found in a knowledge graph if precisely none or two of its nodes have an odd number of conections to other nodes.  Whereas, a Euler Circuit can only exist if every node has an even number of connections.
 
-The book's second chapter gives an overview of knowledge graph modeling methods.  In doing so it covers three concepts; the Resource Description Method (RDF), the RDF Schenma, and the Wikidata model.
+The book's second chapter gives an overview of knowledge graph modeling methods.  In doing so it covers two primary concepts; the Resource Description Method (RDF) and the Wikidata model.
 
-An article by Loshin (2022) gives an excellect overview of RDF.
+An article by Loshin (2022) gives an excellect overview of RDF.  According to that article, RDF is a way of representing connected data on then web based on relationsips.  In RDF, statements are made about the relationships between different resources on the web.  These are statements describing the relationship between two objects consisting of a subject, a predicate, and an object.  The subject is the item being described by the relationship while the object is the related item.  The relationship between the two is described in the predicate.
 
 
 
