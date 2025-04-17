@@ -6,7 +6,9 @@ For week 2, chapter five of the textbook was assigned. This chapter touches on s
 
 According to Kejriwal (2021), wrapper generaters differ from traditional named entiy resolution by using the wesbsite tags to define their parameters.  This results in a variety of different wrappers being genreated for different kinds of webpages.  
 
-Wrappers can come in two basic varieties.  These are manually constructed and supervised wrappers.  Manually constructed wrappers must be constructed for each webpage or page layout.  Supervised wrappers such as Miverva have various levels of ability to recognize content utilizing procedure programing.  While earlier versions like Minerva are still rules based requiring manual intervention to work exceptions, there are more advanced supervised wrappers such as Rapier.  Rapier utilizis natural language processing and contextual parts of speach to recognize labels for data (Kejriwal, 2021).
+Wrappers can come in four varieties.  These are manually constructed, supervised, semisuprvised, and unsupervised.  Manually constructed wrappers must be constructed for each webpage or page layout.  Supervised wrappers such as Miverva have various levels of ability to recognize content utilizing procedure programing.  While earlier versions like Minerva are still rules based requiring manual intervention to work exceptions, there are more advanced supervised wrappers such as Rapier.  Rapier utilizes natural language processing and contextual parts of speach to recognize labels for data (Kejriwal, 2021).
+
+Semisupervised and Unsupervised wrappers decrease the level of required setup and intevention.
 
 
 References
