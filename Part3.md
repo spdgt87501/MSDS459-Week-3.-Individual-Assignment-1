@@ -10,11 +10,13 @@ Key to this process are the concepts of tokenization and syntactic analysis.  To
 
 While original approaches to NER were manually constructed algorithms, more sophisticated approaches have since been developed.  These can be supervised, semi-supervised, or unsupervised.  As the names imply, these are increasing levels of autonomy on the part of the NER system.  Often the most sophisticated supervised approaches require large volumes of training data to understand entities in the text and their relationships to one another.  While semi-supervised approaches require less upfront training data, the often require the user to intervene periodically to tag entities or provide additional increments of training data.  While unsupervised may work a given task without direction, the model has often been pre-trained on other data.  These approaches often employ deep learning approaches such as neural networks (Kejriwal et al., 2021).
 
-One type of neural network often employed is referred to as a recurrent neural network or RNN.  An RNN will loop repeatedly over a set of training data to develop a model that can be applied to subsequent data.  Each loop utilizes various layers to process the data such as Long Short-Term Memory or LSTM.  As each loop occurs, it passes a message or learning on to the next one.  The system therefore learns over the repeated loops (Kejriwal et al., 2021).
+One type of neural network often employed is referred to as a recurrent neural network or RNN.  An RNN will loop repeatedly over a set of training data to develop a model that can be applied to subsequent data.  Each loop utilizes various layers to process the data such as Long Short-Term Memory or LSTM.  As each loop occurs, it passes a message or learning on to the next one.  The system therefore learns over the repeated loops (Kejriwal et al., 2021).  An example of an available RNN opensource framework is TensorFlow with Keras.  With TensorFlow, a model can be trained from scratch or pre-trained models can be used in transfer learning to start your model off with base learnings.  One example of a available pretrained model is Bert Tiny en uncased.  This is a version of BERT trained on the SST-2 sentiment analysis dataset for TensorFlow with Keras (Keras, 2023).
 
 
 References
 
 Kejriwal, Mayank, Craig A. Knoblock, and Pedro Szekely. Knowledge graphs: Fundamentals, techniques, and applications. Cambridge, MA: The MIT Press, 2021.
+
+Keras. “Keras: Bert.” Kaggle, December 7, 2023. https://www.kaggle.com/models/keras/bert/keras/bert_tiny_en_uncased_sst2/5. 
 
 Nlpblogs. “Beginner’s Guide: Named Entity Recognition (NER) (Part 2).” Medium, February 10, 2025. https://python.plainenglish.io/beginners-guide-named-entity-recognition-ner-part-2-181b5432602f.
