@@ -1,0 +1,9 @@
+# MSDS459-Week-3.-Individual-Assignment-1
+
+Part 5 - Week 2 - Natural Language Processing in Action, Second Edition
+
+For week 2, chapter 11 of this text was assigned.  This chapter covers using tokenization and part of speech labeling to generate understanding of real world topics than can be stored in a knowledge graph for aritificila intelligence systems to utilize.  A knowledge graph is a database wheren information is stored as the entities and relationships betwen those entities.  These relationships are referred to as edges while the entiites are referred to as nodes (Kejriwal et al., 2021).
+
+Kejriwal et al. (2021) suggests utlizing a knowledge graph to store the core facts you expect a large language model to reference.  The intent of this method is to ground the LLM in a given set of true facts about its main topic area.  This grounding helps to increase the accuracy of the LLM's responses and reduce the chance of halucinations.  This can be especially helpful when users ask the model to explain its reasoning or where it obtained knowledge from.  Since most LLMs will attempt to answer a clarifying question whether or not it has the answer, successive probing queries without some grounding set of truths tend to result in nonsenical or fabricated information (Kejriwal et al., 2021).  While this could be helpful if asking an LLM to creatively write a story, its not a desirable behavior for it to make up responses to queries relating to factual information.
+
+According to Kejriwal et al. (2021), one of the first steps toward information extration is segementation.  Segemenation is the act of dividing a long document into cohesive sections about particular topics.  One common approach is segment based upon sentences.  However, simply spliting a document up at punctuation such as ., ?, and ! can lead to some unexpected results when the text includes quotes or technical data.
